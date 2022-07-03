@@ -1,0 +1,48 @@
+body{ font: 100½ arial, helvetica;
+    margin: 0px;
+}   
+.erisim, h1{position: absolute;
+         height:0 ;
+         overflow: hidden;
+} 
+
+#baslik {
+    background:rgb(140, 180, 30);
+    height: 70px;
+}
+#navigation {
+    position: absolute;
+    top: 60px;
+    margin-top: 0.5em;
+    left: 0;
+    width: 135px;
+}
+#navigation ul { margin: 0 0 1em 0;
+    padding: 0%;
+    list-style: none;
+
+}
+#navigation ul a { color: white;
+    text-decoration: none;
+    background: grey;
+    border-left: 3px solid rgb(11, 14, 185);
+    padding: 0 0.5em;
+    margin: 0 1em 4px 1em;
+
+}
+
+#navigation ul a:hover {
+    background: red;
+
+}
+#sayfaic{border-left: 150px solid #070;
+    padding: 1px 20px 1em 40px;
+    background: white;
+
+}
+h2{ font-size:  27px;
+position: relative;
+margin: auto;}
+#sayfaic img{ width: 500px;
+border: 2px solid rgb(167, 23, 23);
+}
